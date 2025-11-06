@@ -67,6 +67,7 @@ IRcaptured  main.h    Makefile             tvbgone.eep  tvbgone.lss  WORLDcodes.
 main.c      main.lst  Originaltvbgone.hex  tvbgone.elf  tvbgone.map  WORLDcodes.d
 main.d      main.o    parsegen3.pl         tvbgone.hex  tvbgone.sym  WORLDcodes.lst
 ```
+# Output
 
 - How it should looks like in teminal?
 - in my case Raspberry 4
