@@ -14,8 +14,8 @@ TV-B-Gone Attiny85 tool to ShutDown TVs
 
 ## Original support EU and US IR codes
 - this has 2 options
- - 1. flash Original
- - 2. flash custom edited (like in this tutorial)
+  - FIRST METHOD --> flash Original
+  - SECOND METHOD --> flash custom edited (like in this tutorial)
 
 ![Attiny85 connection](attiny85-Schematic.jpg)
 
