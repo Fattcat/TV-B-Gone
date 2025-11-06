@@ -3,6 +3,29 @@ TV-B-Gone Attiny85 tool to ShutDown TVs
 
 - If you found this guide helpful, Please Give me Star on this repository :D
 
+# for begginers
+
+- do just this
+- Connect Arduino uno to pc, upload ArduinoISP code
+- Paste this into terminal & hit enter
+```
+sudo apt install gcc-avr avr-libc avrdude make git binutils-avr libc6-dev
+```
+- Connect Arduino uno with attiny85 and plug to USB port on Linux PC
+- navigate to **edited** folder and download zip in Linux PC
+- unzip it, navigae to that unziped folder to ```/firmware/```
+- paste this to terminal
+```
+make clean
+make
+make program
+```
+- this should be done easily and working
+- Now wait few seconds -> it could take few seconds to 1 minute
+- after successfull uploading, unplug Arduino from USB & disconnect Attiny85
+- connect IR, LED diode, and power (I ensured power source directly from Arduino uno 5V and GND)
+  - also u can use 3V coin battery instead of 5V
+
 ## Setup
 - Before you start, check this [readmeTwoFile](readmeTwo.md) file where u find similar & more preciselly done job
 ### what you will need
