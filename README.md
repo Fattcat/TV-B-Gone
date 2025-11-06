@@ -4,7 +4,7 @@ TV-B-Gone Attiny85 tool to ShutDown TVs
 - If you found this guide helpful, Please Give me Star on this repository :D
 
 ## Setup
-
+- Before you start, check second .md file
 ### what you will need
 - Arduino uno (with clone it is slightly dirrerent because it has CH340)
 - Attiny85
