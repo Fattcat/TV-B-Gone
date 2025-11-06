@@ -16,8 +16,12 @@ TV-B-Gone Attiny85 tool to ShutDown TVs
 - this has 2 options
  - 1. flash Original
  - 2. flash custom edited (like in this tutorial)
-![Attiny85 connection (no need Capacitor)](attiny85-Schematic.jpg)
 
+![Attiny85 connection](attiny85-Schematic.jpg)
+
+![Attiny85 pinout](attiny85.jpg)
+
+- capacitor not needed
 ```
 sudo apt install gcc-avr avr-libc avrdude make git binutils-avr libc6-dev
 ```
