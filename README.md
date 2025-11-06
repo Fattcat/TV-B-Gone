@@ -51,11 +51,19 @@ git clone https://github.com/adafruit/TV-B-Gone-kit.git
 - in linux terminal start command
 ```
 make clean
-make Custom-tvbgone.hex
+make tvbgone.hex
 make program
 ```
+- then check it out, it SHOULD NOT fail, if so, then check whats wrong
+- now start command ```ls``` and zou should see more files than in original
+- it should be something similar like this:
+```
+output from ls
 
-
+IRcaptured  main.h    Makefile             tvbgone.eep  tvbgone.lss  WORLDcodes.c    WORLDcodes.o
+main.c      main.lst  Originaltvbgone.hex  tvbgone.elf  tvbgone.map  WORLDcodes.d
+main.d      main.o    parsegen3.pl         tvbgone.hex  tvbgone.sym  WORLDcodes.lst
+```
 
 
 
