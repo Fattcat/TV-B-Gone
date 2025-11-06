@@ -58,11 +58,15 @@ git clone https://github.com/adafruit/TV-B-Gone-kit.git
   - **you can find edited files in this repo in folder ```TV-B-Gone-kit/firmware``` for simple flash**
 
 ## Flash file to Attiny85
-- ! double check wire connection (make sure everything is good) !
+- Connect Arduino uno with Attiny85 and to Linux USB pc
+  - check command ```lsusb``` you should see info about connected Arduino board
+  - also check ```ls /dev/ttyACM*```
+  - ** IF YOU HAVE Arduino uno (CLONE)** instead of original, use this ```ls /dev/ttyUSB*``` - I did it with original Uno board
+- **! double check wire connection (make sure everything is good) !**
 - in linux terminal start command
 ```
 make clean
-make tvbgone.hex
+make
 make program
 ```
 - then check it out, it SHOULD NOT fail, if so, then check whats wrong
