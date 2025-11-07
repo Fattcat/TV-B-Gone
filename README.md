@@ -3,7 +3,8 @@ TV-B-Gone Attiny85 tool to ShutDown TVs
 
 
 
-![Visitors](https://count.getloli.com/get/@Fattcat.Attiny85-TV-B-Gone?theme=rule34)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Fattcat.Attiny85-TV-B-Gone)
+
 
 
 ![GitHub stars](https://img.shields.io/github/stars/Fattcat/Attiny85-TV-B-Gone?style=social)
