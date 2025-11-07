@@ -1,13 +1,9 @@
 # Attiny85 simple setup for DIY TV-B-Gone
 TV-B-Gone Attiny85 tool to ShutDown TVs
 
-
-
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Fattcat.Attiny85-TV-B-Gone)
-
-
-
-![GitHub stars](https://img.shields.io/github/stars/Fattcat/Attiny85-TV-B-Gone?style=social)
+| --- | --- |
+| ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Fattcat.Attiny85-TV-B-Gone) | ![GitHub stars](https://img.shields.io/github/stars/Fattcat/Attiny85-TV-B-Gone?style=social) |
+| --- | --- |
 
 - If you found this guide helpful, Please Give me Star on this repository :D
 
