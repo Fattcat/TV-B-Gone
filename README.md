@@ -62,6 +62,12 @@ make program
 
 ![Attiny85 pinout](attiny85.jpg)
 
+## How it looks like ?
+
+| PCB View 1 | PCB View 2 |
+|:----------:|:----------:|
+| ![All on PCB](TV-B-Pcb1.jpg) | ![All on PCB 2](TV-B-Pcb2.jpg) |
+
 ```
 sudo apt install gcc-avr avr-libc avrdude make git binutils-avr libc6-dev
 ```
