@@ -15,14 +15,20 @@
 | Push button | 1 | Momentary tactile switch |
 | Capacitor | 1 | **10 µF electrolytic**, 16 V+ |
 | Transistor (recommended) | 1 | e.g., 2N2222, BC547, or PN2222A |
-| Resistors | 2–3 | 100 Ω (IR LED), 1 kΩ (transistor base), 220 Ω (status LED, optional) |
-| Power source | 2× AA batteries | 3 V (ideal), or 3.3–5 V external supply |
+| Resistors | 2 | 1 kΩ (transistor base), 220 Ω (status LED, optional) |
+| Battery | 1 | LiPo 3.7V 650mah |
+| TP4056 usb A or C | 1 | For charging the battery |
+
 
 ---
 
 ## 🔌 Wiring
 
 ### 1. Programming (ATtiny85 → Arduino Uno as ISP)
+
+<p align="center">
+  <img src="attiny85-Schematic.png" alt="Flashing to Attiny85" width="300">
+</p>
 
 | ATtiny85 (physical pin) | Name | Arduino Uno |
 |-------------------------|------|-------------|
@@ -42,7 +48,7 @@
 
 | ATtiny85 | Connection |
 |---------|------------|
-| Pin 1 (RESET) | → Push button → GND |
+| Pin 1 (RESET) | → **3 leg switch** (not button) → GND |
 | Pin 5 (PB0) | → 100 Ω → **IR LED anode** → **IR LED cathode** → GND  
 | *(better option)* | → 1 kΩ → transistor base (2N2222), emitter → GND, collector → IR LED cathode, IR LED anode → VCC |
 | Pin 8 | VCC (3–5 V) |
