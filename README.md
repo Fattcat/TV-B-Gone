@@ -1,6 +1,8 @@
 # Attiny85 simple setup for DIY TV-B-Gone
 TV-B-Gone Attiny85 tool to ShutDown TVs
 
+👉 [See how it looks like](#how-it-looks-like)
+
 | ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Fattcat.Attiny85-TV-B-Gone) | ![GitHub stars](https://img.shields.io/github/stars/Fattcat/Attiny85-TV-B-Gone?style=social) |
 | --- | --- |
 
@@ -62,7 +64,7 @@ make program
 
 ![Attiny85 pinout](attiny85.jpg)
 
-## How it looks like ?
+## How it looks like
 
 | PCB View 1 | PCB View 2 |
 |:----------:|:----------:|
